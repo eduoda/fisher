@@ -14,7 +14,7 @@
     "Hook",
     "Event"
   ],
-  "author": "Eduardo Oda",
+  "author": "Eduardo Oda <oda@member.fsf.org>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/eduoda/fisher/issues"
