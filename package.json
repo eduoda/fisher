@@ -1,5 +1,5 @@
 {
-  "name": "fisher.js",
+  "name": "fisherjs",
   "version": "0.0.1",
   "description": "Simple hook system",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eduoda/fisher.js.git"
+    "url": "git+https://github.com/eduoda/fisherjs.git"
   },
   "keywords": [
     "Hook",
@@ -17,7 +17,7 @@
   "author": "Eduardo Oda <oda@member.fsf.org>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eduoda/fisher.js/issues"
+    "url": "https://github.com/eduoda/fisherjs/issues"
   },
-  "homepage": "https://github.com/eduoda/fisher.js#readme"
+  "homepage": "https://github.com/eduoda/fisherjs#readme"
 }
