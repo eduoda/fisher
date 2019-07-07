@@ -1,0 +1,23 @@
+{
+  "name": "fisher",
+  "version": "0.0.1",
+  "description": "Simple hook system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduoda/fisher.git"
+  },
+  "keywords": [
+    "Hook",
+    "Event"
+  ],
+  "author": "Eduardo Oda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduoda/fisher/issues"
+  },
+  "homepage": "https://github.com/eduoda/fisher#readme"
+}
