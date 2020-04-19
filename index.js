@@ -1,11 +1,12 @@
 class Fisher{
   constructor(){
     this.hooks = {};
-  }  
-  addHook(type,hook,shouldAwait=false){
+  }
+  addHook(type,hook,shouldAwait=false,weight=0){
     if(!this.hooks.hasOwnProperty(type))
       this.hooks[type]=[];
-    this.hooks[type].push({hook,shouldAwait});
+    this.hooks[type].push({hook,shouldAwait,weight});
+    this.hooks[type].sort((h1,h2) => {return h1.weight-h2.weight})
   }
   async fished(type,...args){
     if(!this.hooks.hasOwnProperty(type))
@@ -22,8 +23,8 @@ class Fisher{
     await this.fished(type,...args);
   }
 
-  addListener(type,hook,shouldAwait=false){
-    this.addHook(type,hook,shouldAwait);
+  addListener(type,hook,shouldAwait=false,weight=0){
+    this.addHook(type,hook,shouldAwait,weight);
   }
 }
 module.exports = Fisher;
